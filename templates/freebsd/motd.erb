@@ -1,0 +1,3 @@
+<%= node[:kernel][:os] %> <%= node[:kernel][:release] %> (<%= node[:kernel][:ident] %>) #<%= node[:kernel][:version].split('#')[1].split('     ').first %>
+
+<%= node[:motd][:message] %>
